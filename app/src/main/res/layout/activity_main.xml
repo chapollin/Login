@@ -26,8 +26,65 @@
         android:layout_marginEnd="@dimen/margin_padrao"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Nome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewUser" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_padrao"
+        android:layout_marginTop="@dimen/margin_padrao"
+        android:text="@string/TextViewPW"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUser" />
+
+    <EditText
+        android:id="@+id/editTextTextPW"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_padrao"
+        android:layout_marginTop="@dimen/margin_padrao"
+        android:layout_marginEnd="@dimen/margin_padrao"
+        android:ems="10"
+        android:hint="Senha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_padrao"
+        android:layout_marginTop="@dimen/margin_padrao"
+        android:layout_marginEnd="@dimen/margin_padrao"
+        android:text="@string/button_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPW" />
+
+    <Button
+        android:id="@+id/button_forgot_PW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padrao"
+        android:layout_marginEnd="@dimen/margin_padrao"
+        android:text="@string/button_forgot_PW"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCadastrar"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padrao"
+        android:layout_marginEnd="@dimen/margin_padrao"
+        android:text="@string/button_cadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

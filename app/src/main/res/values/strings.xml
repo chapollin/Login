@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Login</string>
     <string name="texto_usuario">Usúario</string>
+    <string name="TextViewPW">Senha</string>
+    <string name="button_login">Logar</string>
+    <string name="button_cadastrar">Cadastrar</string>
+    <string name="button_forgot_PW">Esqueci a senha</string>
 </resources>
